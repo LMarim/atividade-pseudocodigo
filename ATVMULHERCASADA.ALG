@@ -1,16 +1,16 @@
 Algoritmo "ATVMULHERCASADA"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 02/04/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    nome,sexo,estadoCivil,f,m: caracter
    anosCasada: inteiro
    casada,solteira,casado,solteiro:caracter
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    escreval("                  ============+=============")
    escreval("                  Bem Vindo(a) Ao Cartorio!!")
    escreval("                  ============+=============")
@@ -25,10 +25,10 @@ Inicio
    leia(sexo)
    se(sexo>=F) entao
       limpatela
-      escreval("Qual o estado civil que você se encontra agora?")
+      escreval("Qual o estado civil que vocÃª se encontra agora?")
       leia(estadoCivil)
       se(estadoCivil="casada")entao
-         escreval("Certo,agora nos informe a quantos anos está casada.")
+         escreval("Certo,agora nos informe a quantos anos estÃ¡ casada.")
          leia(anosCasada)
          limpatela
          escreval("Nome:",nome)
@@ -51,7 +51,7 @@ Inicio
          escreval("Sexo:",sexo)
          escreval("Estado civil:",estadoCivil)
       senao
-         se(estadoCivil>="solteiro")entao
+         se(estadoCivil="solteiro")entao
             limpatela
             escreval("Nome:",nome)
             escreval("Sexo:",sexo)
