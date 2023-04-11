@@ -1,0 +1,32 @@
+Algoritmo "cd"
+// Disciplina   : [Lógica de Programação]
+// Professor   :  Carlos
+// Descrição   : Desenvolva o algoritmo que a partir da entrada da cor o software mostre o preço.
+// Autor(a)    : Lucas Marinho
+// Data atual  : 05/04/2023
+Var
+   // Seção de Declarações das variáveis
+   cor: caracter
+
+Inicio
+   // Apresentação da Loja
+   escreval("           Bem vindo a loja de CD")
+   escreval("           -----------°----------")
+   escreval(" ")
+   escreval("Escolha a cor do CD desejada.")
+   leia(cor)
+   //preços do CD
+   escreval(" ")
+   se(cor = "verde") entao
+      escreval("o valor do CD verde é R$:10")
+   fimse
+         se(cor = "azul") entao
+            escreval("o valor do CD azul é R$:20")
+         fimse
+          se(cor = "amarelo") entao
+             escreval("o valor do CD amarelo é R$:30")
+          fimse
+           se(cor = "vermelho") entao
+              escreval("o valor do CD verde é R$:40")
+           fimse
+Fimalgoritmo
