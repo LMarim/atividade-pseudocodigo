@@ -31,7 +31,7 @@ Inicio
  escreval("O resultado do valor C é:",valorC)
  senao
  valorC<-(valorA*valorB)
-  escreval("Como os valores escolhidos foram iguais, os números foram multiplicados")
+  escreval("Como os valores escolhidos foram diferentes, os números foram multiplicados")
   escreval("sendo eles")
  escreval(" ")
  escreval("Valor A:",valorA)
