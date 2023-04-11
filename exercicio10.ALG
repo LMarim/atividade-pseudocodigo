@@ -1,32 +1,32 @@
 Algoritmo "Abastecer"
-// Disciplina   : [Lógica de Programação]
+// Disciplina   : [LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Carlos
-// Descrição   : calcule e imprima o valor a ser pago pelo cliente sabendo-se que o preço do litro da gasolina é R$ 6,59 e o preço do litro do álcool é R$ 3,79.
+// DescriÃ§Ã£o   : calcule e imprima o valor a ser pago pelo cliente sabendo-se que o preÃ§o do litro da gasolina Ã© R$ 6,59 e o preÃ§o do litro do Ã¡lcool Ã© R$ 3,79.
 // Autor(a)    : Lucas Marinho
 // Data atual  : 05/04/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    alcool,gasolina:real
    litros:inteiro
    valorTotal: real
    combustivel: caracter
 Inicio
-   // introdunção braba
+   // introdunÃ§Ã£o braba
    escreval("             posto simulator")
    escreval("             ~~~~~~~~~~~~~~~")
    escreval(" ")
    escreval(" ")
-   escreval("A gasolina está custando R$:6,59")
+   escreval("A gasolina estÃ¡ custando R$:6,59")
    escreval("-------------------------------")
-   escreval("O alcool está custando R$:3,79")
+   escreval("O alcool estÃ¡ custando R$:3,79")
    escreval(" ")
-   escreval("Como você vai querer abastecer?")
+   escreval("Como vocÃª vai querer abastecer?")
    leia(combustivel)
    gasolina<-6.59
    alcool<-3.79
    //gasolina
    se (combustivel="gasolina")entao
-      escreval("Quantos litros de gasolina você deseja")
+      escreval("Quantos litros de gasolina vocÃª deseja")
       leia(litros)
       valorTotal<-gasolina*litros
       limpatela
@@ -42,7 +42,7 @@ Inicio
    fimse
    //alcool
    se (combustivel="alcool")entao
-      escreval("Quantos litros de alcool você deseja")
+      escreval("Quantos litros de alcool vocÃª deseja")
       leia(litros)
       valorTotal<-alcool*litros
       limpatela
