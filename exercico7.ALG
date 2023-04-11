@@ -1,30 +1,30 @@
 Algoritmo "produtoPorcentagem"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 05/04/2023
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 produto: caracter
 quantidade:inteiro
 valorTotal,precoProduto:real
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 
 escreval("             venda seus lixo")
 escreval("Abaixo de 5 unidades 2% de desconto")
-escreval("Acima de 5 até 10 unidades 3% de desconto")
+escreval("Acima de 5 atÃ© 10 unidades 3% de desconto")
 escreval("Acima de 10 unidades 5% de desconto")
 escreval(" ")
-escreval(" qual produto você deseja comprar")
+escreval(" qual produto vocÃª deseja comprar")
 leia(produto)
 escreval(" ")
 escreval("digite o valor do produto")
 leia(precoProduto)
 //quantidade
 escreval(" ")
-escreval("Quantos você vai querer?")
+escreval("Quantos vocÃª vai querer?")
 leia(quantidade)
 limpatela
 //resultados finais
