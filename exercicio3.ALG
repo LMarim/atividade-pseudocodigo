@@ -1,16 +1,16 @@
 Algoritmo "NumIgualsomaDifMult"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 03/04/2023
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 valorA,valorB,valorC: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
- escreval("Por favor digite dois números INTEIROS para que possamos calcular")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
+ escreval("Por favor digite dois nÃºmeros INTEIROS para que possamos calcular")
  escreval("_________________________________________________________________")
  escreval(" ")
  escreval(" ")
@@ -22,21 +22,21 @@ Inicio
  limpatela
  se(valorA=valorB)entao
  valorC<-(valorA+valorB)
- escreval("Como os valores escolhidos foram iguais, os números foram somados")
+ escreval("Como os valores escolhidos foram iguais, os nÃºmeros foram somados")
  escreval("sendo eles")
  escreval(" ")
  escreval("Valor A:",valorA)
  escreval("Valor B:",valorB)
  escreval(" ")
- escreval("O resultado do valor C é:",valorC)
+ escreval("O resultado do valor C Ã©:",valorC)
  senao
  valorC<-(valorA*valorB)
-  escreval("Como os valores escolhidos foram iguais, os números foram multiplicados")
+  escreval("Como os valores escolhidos foram iguais, os nÃºmeros foram multiplicados")
   escreval("sendo eles")
  escreval(" ")
  escreval("Valor A:",valorA)
  escreval("Valor B:",valorB)
  escreval(" ")
- escreval("O resultado do valor C é:",valorC)
+ escreval("O resultado do valor C Ã©:",valorC)
  fimse
 Fimalgoritmo
